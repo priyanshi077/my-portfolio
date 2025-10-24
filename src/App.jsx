@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import Blogs from "./Components/Blogs";
 import Footer from "./Components/Footer";
 
+
 const App = () => {
   return (
     <>

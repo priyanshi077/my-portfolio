@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ArrowUpRight } from "lucide-react"; // Install using: npm install lucide-react
+import { ArrowUpRight } from "lucide-react"; //  npm install lucide-react
 
 const cards = [
   { title: "UI/UX Design", imgSrc: "/landing.jpg" },
@@ -15,6 +15,7 @@ const ServiceCard = ({ title, imgSrc }) => (
 
     {/* --- Main Card --- */}
     <div className="relative z-10 w-full h-full rounded-3xl border border-white/30 bg-white/10 backdrop-blur-lg shadow-lg overflow-hidden transition-transform duration-300 group-hover:scale-[1.03]">
+    
       {/* Card Title */}
       <h3 className="text-white text-xl font-semibold text-left px-6 pt-5">
         {title}
