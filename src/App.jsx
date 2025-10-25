@@ -8,6 +8,7 @@ import TestimonialSection from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Blogs from "./Components/Blogs";
 import Footer from "./Components/Footer";
+import RunningLine from "./Components/RunningLine";
 
 
 const App = () => {
@@ -22,8 +23,10 @@ const App = () => {
           <WhyHireMe />
           <TestimonialSection />
           <Contact />
+           <RunningLine />
           <Blogs />
           <Footer />
+         
         </div>
       </div>
     </>

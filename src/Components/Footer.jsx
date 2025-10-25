@@ -28,7 +28,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-[#242424] w-full pt-12 pb-4 px-4 md:px-16 rounded-[2rem] mt-6">
+    <footer className="bg-[#242424] w-full pt-12 pb-4 px-4 md:px-16 rounded-t-[2rem] mt-6">
       {/* Top Row */}
       <div className="flex flex-col md:flex-row items-baseline justify-between md:gap-0 gap-8">
         <h2 className="text-white text-5xl md:text-6xl font-extrabold mb-8 mt-2 leading-tight">

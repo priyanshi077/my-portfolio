@@ -72,6 +72,8 @@ export default function ContactSection() {
         </button>
       </form>
 
+  
+
       {/* Info Bar */}
       <div className="
           w-full max-w-4xl flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-0 sm:justify-between text-lg
@@ -89,7 +91,11 @@ export default function ContactSection() {
           <ShieldCheck className="h-7 w-7 text-[#384155]" />
           <span>Certified Product Designer</span>
         </div>
+ 
       </div>
+
+  
+
       {sent && (
         <div className="text-green-600 font-semibold mt-6 text-xl">Thank you! Your email was sent successfully.</div>
       )}
