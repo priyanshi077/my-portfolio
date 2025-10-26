@@ -71,17 +71,10 @@ body::-webkit-scrollbar {
 }
 
 .custom-clip {
-  clip-path: polygon(
-    0 40px,
-    40px 0,
-    calc(100% - 40px) 0,
-    100% 40px,
-    100% calc(100% - 40px),
-    calc(100% - 40px) 100%,
-    40px 100%,
-    0 calc(100% - 40px)
-  );
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-mask: url('/src/assets/icons/container.svg') no-repeat center / contain;
+  mask: url('/src/assets/icons/container.svg') no-repeat center / contain;
 }
 
 html {

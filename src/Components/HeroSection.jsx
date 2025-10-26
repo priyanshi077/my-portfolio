@@ -32,13 +32,13 @@ export default function HeroSection() {
 >
   <div className="relative group w-[240px] h-[300px] md:w-[320px] md:h-[400px] lg:w-[420px] lg:h-[520px]">
     {/* Background image  */}
-    <img
+    {/* <img
       src="/image.png"
       alt="Background portrait"
-      className="w-full h-full  object-cover rounded-t-lg absolute inset-0
-                 opacity-0 group-hover:opacity-100 
-                 transition-all duration-500 ease-out z-10"
-    />
+       className="absolute left-1/2 bottom-5 -translate-x-1/2 translate-y-[10%]
+             w-[420%] h-[220%] object-contain
+             transition-all duration-700 ease-out z-10"
+    /> */}
 
     {/* Main visible image */}
     <img
