@@ -23,11 +23,13 @@ const App = () => {
           <WhyHireMe />
           <TestimonialSection />
           <Contact />
-           <RunningLine />
+          <RunningLine />
           <Blogs />
           <Footer />
-         
+
         </div>
+
+        
       </div>
     </>
   );
