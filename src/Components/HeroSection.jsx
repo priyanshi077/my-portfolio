@@ -14,9 +14,8 @@ export default function HeroSection() {
 
       {/* Main Heading */}
       <h1
-        className={`text-5xl md:text-6xl font-bold text-center mb-2 transition-opacity duration-500 ${
-          animationStarted ? "opacity-0" : "opacity-100"
-        }`}
+        className={`text-5xl md:text-6xl font-bold text-center mb-2 transition-opacity duration-500 ${animationStarted ? "opacity-0" : "opacity-100"
+          }`}
       >
         I&apos;m <span className="text-orange-500">Priyanshi</span>,
         <br />
@@ -24,9 +23,10 @@ export default function HeroSection() {
       </h1>
 
       {/* Semi-circle background */}
-      <div className="absolute left-1/2 -translate-x-1/2 bottom-0 z-10 w-[60%] md:w-[50%] lg:w-[42%]">
-        <div className="w-full h-[180px] md:h-[260px] lg:h-[300px] bg-orange-300 rounded-t-full" />
-      </div>
+      <div className="absolute left-1/2 -translate-x-1/2 bottom-[-60px] z-10 w-[60%] md:w-[50%] lg:w-[42%]">
+  <div className="w-full h-[220px] md:h-[270px] lg:h-[320px] bg-orange-300 rounded-t-full" />
+</div>
+
 
       {/* Center image with hover background image */}
       <div
@@ -34,24 +34,24 @@ export default function HeroSection() {
         onMouseLeave={() => setAnimationStarted(false)}
         className="absolute left-1/2 -translate-x-1/2 bottom-0 z-30 flex justify-center"
       >
-        <div className="relative group w-[240px] h-[300px] md:w-[320px] md:h-[400px] lg:w-[420px] lg:h-[520px]">
+        <div className="relative group w-[370px] h-[300px] md:w-[320px] md:h-[400px] lg:w-[420px] lg:h-[520px]">
           {/* Background image (shows on hover) */}
           <img
             src="/image.png"
             alt="Background portrait"
-            className="w-full h-full object-cover rounded-t-lg absolute inset-0
-                 opacity-0 group-hover:opacity-100 
-                 transition-all duration-500 ease-out z-10
-                 group-hover:scale-110"
+            className="buttom-[0] absolute inset-0 w-[400] h-[180] object-cover rounded-t-lg
+           opacity-0 group-hover:opacity-100 
+           transition-all duration-500 ease-out z-10
+           group-hover:scale-110"
           />
 
           {/* Main visible image */}
           <img
-            src="/Portfolio.img.png"
-            alt="Priyanshi portrait"
-            className="w-full h-full object-cover rounded-t-lg drop-shadow-xl
-                 transition-all duration-500 ease-out group-hover:scale-105 relative z-20"
-          />
+  src="/Portfolio.img.png"
+  alt="Priyanshi portrait"
+  className="absolute bottom-0 left-1/2 -translate-x-1/2 z-20 w-[380px] h-[500px] object-cover rounded-[70px]"
+/>
+
         </div>
       </div>
 
