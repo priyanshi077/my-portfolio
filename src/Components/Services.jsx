@@ -8,9 +8,6 @@ const cards = [
   { title: "Landing Page", imgSrc: "/ui.design.jpg" },
 ];
 
-
-
-
 const Services = () => {
   const [activeIndex, setActiveIndex] = useState(1);
 
@@ -50,8 +47,9 @@ const Services = () => {
         {cards.map((card, idx) => (
           <div
             key={idx}
-            className={`transition-all duration-500 ${idx === activeIndex ? "opacity-100 scale-105" : "opacity-90"
-              }`}
+            className={`transition-all duration-500 ${
+              idx === activeIndex ? "opacity-100 scale-105" : "opacity-90"
+            }`}
           >
             <ServiceCard {...card} />
           </div>
@@ -64,10 +62,11 @@ const Services = () => {
           <span
             key={idx}
             onClick={() => setActiveIndex(idx)}
-            className={`cursor-pointer transition-all duration-300 rounded-full ${idx === activeIndex
-              ? "w-8 h-3 bg-orange-400"
-              : "w-3 h-3 bg-white/50 hover:bg-white/70"
-              }`}
+            className={`cursor-pointer transition-all duration-300 rounded-full ${
+              idx === activeIndex
+                ? "w-8 h-3 bg-orange-400"
+                : "w-3 h-3 bg-white/50 hover:bg-white/70"
+            }`}
           ></span>
         ))}
       </div>

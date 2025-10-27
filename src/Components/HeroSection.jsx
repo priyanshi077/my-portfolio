@@ -39,10 +39,10 @@ export default function HeroSection() {
           <img
             src="/image.png"
             alt="Background portrait"
-            className="buttom-[0] absolute inset-0 w-[400] h-[180] object-cover rounded-t-lg
+            className="bottom-[0] absolute inset-0 w-[400] h-[180] object-cover rounded-t-lg
            opacity-0 group-hover:opacity-100 
-           transition-all duration-500 ease-out z-10
-           group-hover:scale-110"
+           transition-all duration-500 ease-out 
+           group-hover:scale-200 top-25"
           />
 
           {/* Main visible image */}
