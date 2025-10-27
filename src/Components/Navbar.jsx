@@ -1,4 +1,4 @@
- import React, { useState } from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between relative">
           {/* left logo - Always visible */}
           <div className="flex items-center justify-center p-4 md:p-0">
-            <span className="font-bold text-xl text-white ml-4">PRIYANSHI</span>
+            <span className="font-bold text-xl text-white ml-4 bg-orange-400 rounded-full px-3 py-3">PRIYANSHI</span>
           </div>
 
           {/* Hamburger button - Visible on mobile only */}
