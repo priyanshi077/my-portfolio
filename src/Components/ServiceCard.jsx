@@ -20,7 +20,7 @@ const ServiceCard = ({ title, imgSrc }) => {
               shadow-[0_8px_30px_rgba(0,0,0,0.25)]
             "
             style={{
-              width: "440px",
+              width: "400px",
               height: "330px",
               bottom: "30px",
               transform: "translateY(-115px)",

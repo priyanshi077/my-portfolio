@@ -19,11 +19,11 @@ export default function ContactSection() {
         "UPWp6LDQdrZWE4bD6"       // replace
       )
       .then(
-        (result) => {
+        () => {
           setSending(false);
           setSent(true);
         },
-        (error) => {
+        () => {
           setSending(false);
           alert("Error sending. Please try again!");
         }
@@ -51,9 +51,11 @@ export default function ContactSection() {
           mb-9
         "
       >
-        <span className="flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 mx-1">
+       {/* 👇 Mail icon (hidden on mobile) */}
+        <span className="hidden sm:flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 mx-1">
           <Mail className="text-orange-400 w-8 h-8" />
         </span>
+        
         {/* Name, Email, Message as needed! */}
         {/* For this one-input case: */}
         <input

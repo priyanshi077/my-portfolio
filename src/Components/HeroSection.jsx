@@ -24,9 +24,8 @@ export default function HeroSection() {
 
       {/* Main Heading */}
       <h1
-        className={`relative text-5xl md:text-6xl font-bold text-center mb-2 transition-opacity duration-500 ${
-          animationStarted ? "opacity-0" : "opacity-100"
-        }`}
+        className={`relative text-5xl md:text-6xl font-bold text-center mb-2 transition-opacity duration-500 ${animationStarted ? "opacity-0" : "opacity-100"
+          }`}
       >
         I&apos;m <span className="text-orange-500">Priyanshi</span>,
         <br />
@@ -99,17 +98,15 @@ export default function HeroSection() {
             className={`flex items-center rounded-[60px] py-2.5
                 text-[18px] sm:text-[20px] md:text-[22px] lg:text-[25.69px]
                 text-nowrap text-white transition-all
-                ${
-                  isBtnDefault
-                    ? "bg-orange-500 outline-[0.5px] outline-[#D0D5DD] px-6 sm:px-8 font-medium"
-                    : "px-[14px] sm:px-[17.5px] font-light bg-transparent"
-                }`}
+                ${isBtnDefault
+                ? "bg-orange-500 outline-[0.5px] outline-[#D0D5DD] px-6 sm:px-8 font-medium"
+                : "px-[14px] sm:px-[17.5px] font-light bg-transparent"
+              }`}
           >
             Portfolio
             <ArrowUpRight
-              className={`ml-2 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 ${
-                isBtnDefault ? "inline-block" : "hidden"
-              }`}
+              className={`ml-2 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 ${isBtnDefault ? "inline-block" : "hidden"
+                }`}
             />
           </button>
 
@@ -119,17 +116,15 @@ export default function HeroSection() {
             className={`flex items-center rounded-[60px] py-2.5
                 text-[18px] sm:text-[20px] md:text-[22px] lg:text-[25.69px]
                 text-nowrap text-white transition-all
-                ${
-                  !isBtnDefault
-                    ? "bg-orange-500 outline-[0.5px] outline-[#D0D5DD] px-6 sm:px-8 font-medium"
-                    : "px-[14px] sm:px-[17.5px] font-light bg-transparent"
-                }`}
+                ${!isBtnDefault
+                ? "bg-orange-500 outline-[0.5px] outline-[#D0D5DD] px-6 sm:px-8 font-medium"
+                : "px-[14px] sm:px-[17.5px] font-light bg-transparent"
+              }`}
           >
             Hire Me
             <ArrowUpRight
-              className={`ml-2 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 ${
-                !isBtnDefault ? "inline-block" : "hidden"
-              }`}
+              className={`ml-2 w-6 h-6 sm:w-8 sm:h-8 md:w-9 md:h-9 ${!isBtnDefault ? "inline-block" : "hidden"
+                }`}
             />
           </button>
         </div>

@@ -63,8 +63,9 @@ export default function Footer() {
           </div>
         </div>
         {/* Center: Navigation/Contact */}
-        <div className="flex-1 flex md:flex-row flex-col justify-center items-center md:items-start gap-12">
-          <div>
+        <div className="flex-1 flex md:flex-row flex-col justify-between items-center md:items-start gap-12 w-full">
+          <div className=
+          'text-center md:text-left'>
             <div className="text-orange-400 text-xl font-semibold mb-3">Navigation</div>
             <ul className="space-y-2 text-white text-lg font-medium">
               <li><a href="#home" className="hover:text-orange-400">Home</a></li>
@@ -74,13 +75,17 @@ export default function Footer() {
               <li><a href="#projects" className="hover:text-orange-400">Project</a></li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <div className="text-orange-400 text-xl font-semibold mb-3">Contact</div>
             <div className="text-white/90 text-lg font-medium"><a href="tel:+91 6299979308">+91 62 99 97 93 08</a></div>
             <div className="text-white/90 text-lg font-medium"><a href="mailto:fawzisayed1209@gmail.com">priyanshiweb07@gmail.com</a></div>
             <div className="text-white/90 text-lg font-medium"><a href="https://fawziuiux.com" target="_blank" rel="noopener noreferrer">Priyanshi.com</a></div>
           </div>
         </div>
+  <div className="flex-1 flex flex-col items-center md:items-end gap-2">
+    
+  </div>
+  
         {/* Right: Subscribe */}
         <div className="flex-1 flex flex-col items-center md:items-end gap-2">
           <div className="text-orange-400 text-xl font-semibold mb-3 md:text-right text-center">
