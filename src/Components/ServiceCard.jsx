@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react"; // correct icon/component name
 
 const ServiceCard = ({ title, imgSrc }) => {
   return (
-    <div className="relative w-[416px] h-[600px]">
+    <div className="relative w-[380px] h-[500px]">
       {/* Card shell */}
       <div className="service-card custom-clip absolute inset-0 flex flex-col justify-between items-center rounded-[32px] border border-white/30 bg-white/5 shadow-2xl overflow-hidden z-40 backdrop-blur-[6px]">
         {/* Title */}
@@ -20,7 +20,7 @@ const ServiceCard = ({ title, imgSrc }) => {
               shadow-[0_8px_30px_rgba(0,0,0,0.25)]
             "
             style={{
-              width: "400px",
+              width: "440px",
               height: "330px",
               bottom: "30px",
               transform: "translateY(-115px)",
@@ -62,9 +62,9 @@ const ServiceCard = ({ title, imgSrc }) => {
         type="button"
         aria-label="Open"
         className="
-          absolute bottom-10 right-0
+          absolute bottom-1 -right-3
           min-[1440px]:w-[114px] min-[1440px]:h-[114px]
-          w-[98px] h-[98px]
+          w-[70px] h-[70px]
           rounded-full flex items-center justify-center
           bg-[#1f2a36] transition-colors
           hover:bg-[orange] cursor-pointer
@@ -72,7 +72,7 @@ const ServiceCard = ({ title, imgSrc }) => {
           z-[60]
         "
       >
-        <ArrowUpRight className="w-[72px] h-[72px] text-white" />
+        <ArrowUpRight className="w-[50px] h-[50px] text-white " />
       </button>
     </div>
   );
